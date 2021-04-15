@@ -4,6 +4,8 @@ A gesture is a form of non-verbal communication and most important tool for deaf
 
 This project focuses on developing an understanding for Indian Sign Language System which can have an impact on deaf and dumb people's daily lives. Users will be able to interpret what they are saying. This automatic recognition system supports Indian Sign Language alphabet (A-Z) and numerals (0-9). It can be difficult to classify these gestures due to the complexity, similarity between gestures and presence of new gestures emerging out. The non-availability of standard benchmarked dataset further creates a challenge to extract gestures from camera. Therefore we made our own dataset.
 
+<p align="center"><img src="pics/ISL.jpg"></p>
+
 Link to dataset can be found on [Google Drive](https://drive.google.com/drive/folders/1qGKPVEasNDw_zQ09gPThffT2Ru7DNbMO?usp=sharing). It contains the pictures used after image preprocessing which are thresholded and fed to the model.
 
 ## PROJECT WORKFLOW
@@ -45,7 +47,7 @@ Most common ones are :
 
 The project is specially designed for deaf and dumb people; hence we must ensure that there is no complex working and everything should be simple and straight.
 
-A simple GUI is created with a single transition window. The user makes the gesture in the bounding box which is Region of Interest (ROI) and the model interprets the gesture and makes the prediction. GUI also has descriptive information regarding the formation of words and sentences. A sample image for people who don’t know sign language can be found with the help button. 
+A simple GUI is created with a single transition window. The user makes the gesture in the bounding box which is Region of Interest (ROI) and the model interprets the gesture and makes the prediction. GUI also has descriptive information regarding the formation of words and sentences. A sample image for people who donâ€™t know sign language can be found with the help button. 
 
 #### Autocorrect Feature
 A python library fast-autocomplete is used to suggest correct alternatives for each input word and display a set of words matching the current word in which the user can select a word to append it to the current sentence. This helps in reducing mistakes committed in spellings and assists in predicting complex words.
